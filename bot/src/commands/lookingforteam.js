@@ -1,3 +1,5 @@
+// bot/src/commands/lookingforteam.js
+
 import { SlashCommandBuilder, ActionRowBuilder, StringSelectMenuBuilder } from 'discord.js';
 import { getOrCreateUser, updateUser } from '../utils/database.js';
 import { createSuccessEmbed, createUserProfileEmbed } from '../utils/embeds.js';

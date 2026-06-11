@@ -1,3 +1,5 @@
+// bot/src/events/ready.js
+
 import { Events, ActivityType } from 'discord.js';
 
 export const name = Events.ClientReady;

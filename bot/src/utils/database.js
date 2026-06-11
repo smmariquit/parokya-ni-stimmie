@@ -1,3 +1,5 @@
+// bot/src/utils/database.js
+
 import { createClient } from '@supabase/supabase-js';
 import { config } from 'dotenv';
 

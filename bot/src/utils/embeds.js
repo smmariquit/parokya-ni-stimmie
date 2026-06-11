@@ -1,3 +1,5 @@
+// bot/src/utils/embeds.js
+
 import { EmbedBuilder } from 'discord.js';
 
 // Parokya ni Stimmie brand colors (neocities vibes)

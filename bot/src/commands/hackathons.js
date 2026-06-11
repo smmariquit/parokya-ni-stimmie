@@ -1,3 +1,5 @@
+// bot/src/commands/hackathons.js
+
 import { SlashCommandBuilder, EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle } from 'discord.js';
 import { getUpcomingHackathons } from '../utils/database.js';
 import { createHackathonEmbed, createInfoEmbed, COLORS } from '../utils/embeds.js';

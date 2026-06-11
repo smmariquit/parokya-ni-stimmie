@@ -1,3 +1,5 @@
+// bot/src/index.js
+
 import { Client, GatewayIntentBits, Collection } from 'discord.js';
 import { config } from 'dotenv';
 import { fileURLToPath } from 'url';

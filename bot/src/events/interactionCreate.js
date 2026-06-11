@@ -1,3 +1,5 @@
+// bot/src/events/interactionCreate.js
+
 import { Events } from 'discord.js';
 import { createErrorEmbed } from '../utils/embeds.js';
 

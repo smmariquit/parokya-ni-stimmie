@@ -1,3 +1,5 @@
+// bot/src/commands/help.js
+
 import { SlashCommandBuilder, EmbedBuilder } from 'discord.js';
 import { COLORS } from '../utils/embeds.js';
 

@@ -1,3 +1,5 @@
+// web/src/app/resources/page.tsx
+
 import Link from 'next/link';
 
 const guides = [

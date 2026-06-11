@@ -1,3 +1,5 @@
+// bot/src/deploy-commands.js
+
 import { REST, Routes } from 'discord.js';
 import { config } from 'dotenv';
 import { fileURLToPath } from 'url';

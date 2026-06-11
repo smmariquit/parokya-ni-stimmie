@@ -1,3 +1,5 @@
+// bot/src/commands/mentor.js
+
 import { SlashCommandBuilder, ActionRowBuilder, StringSelectMenuBuilder } from 'discord.js';
 import { getOrCreateUser, updateUser } from '../utils/database.js';
 import { createSuccessEmbed, createUserProfileEmbed, COLORS } from '../utils/embeds.js';

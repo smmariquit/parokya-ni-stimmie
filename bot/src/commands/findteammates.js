@@ -1,3 +1,5 @@
+// bot/src/commands/findteammates.js
+
 import { SlashCommandBuilder, EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle } from 'discord.js';
 import { findUsersLookingForTeam } from '../utils/database.js';
 import { createUserProfileEmbed, createInfoEmbed, COLORS } from '../utils/embeds.js';

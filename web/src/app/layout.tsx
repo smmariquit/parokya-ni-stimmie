@@ -1,3 +1,5 @@
+// web/src/app/layout.tsx
+
 import type { Metadata } from 'next';
 import './globals.css';
 import Image from 'next/image';

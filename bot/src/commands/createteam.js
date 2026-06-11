@@ -1,3 +1,5 @@
+// bot/src/commands/createteam.js
+
 import { SlashCommandBuilder, ChannelType, PermissionFlagsBits } from 'discord.js';
 import { getOrCreateUser, createTeam, addTeamMember, getUpcomingHackathons } from '../utils/database.js';
 import { createTeamEmbed, createSuccessEmbed, createErrorEmbed } from '../utils/embeds.js';
