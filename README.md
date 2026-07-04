@@ -6,7 +6,7 @@ Based on Stimmie's experiences from **24+ hackathons**, **66+ teammates**, and *
 
 ```
  ╔══════════════════════════════════════╗
- ║  FIND TEAMS • WIN HACKATHONS • LEARN ║
+ ║ FIND TEAMS • WIN HACKATHONS • LEARN ║
  ╚══════════════════════════════════════╝
 ```
 
@@ -22,21 +22,21 @@ A community platform helping Filipino students:
 
 ```
 parokya-ni-stimmie/
-├── bot/                 # Discord.js bot
-│   ├── src/
-│   │   ├── commands/    # Slash commands
-│   │   ├── events/      # Discord events
-│   │   └── utils/       # Helpers
-│   └── package.json
+├── bot/ # Discord.js bot
+│ ├── src/
+│ │ ├── commands/ # Slash commands
+│ │ ├── events/ # Discord events
+│ │ └── utils/ # Helpers
+│ └── package.json
 │
-├── web/                 # Next.js website (neocities vibes!)
-│   ├── src/
-│   │   ├── app/         # Pages
-│   │   ├── components/  # React components
-│   │   └── lib/         # Database
-│   └── package.json
+├── web/ # Next.js website (neocities vibes!)
+│ ├── src/
+│ │ ├── app/ # Pages
+│ │ ├── components/ # React components
+│ │ └── lib/ # Database
+│ └── package.json
 │
-├── database/            # Supabase schema
+├── database/ # Supabase schema
 └── README.md
 ```
 
