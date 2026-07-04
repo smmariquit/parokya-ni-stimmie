@@ -14,18 +14,18 @@
 1. Go to **[supabase.com](https://supabase.com)** and sign in/create account
 2. Click **"New Project"**
 3. Configure:
-   - **Organization:** Your org
-   - **Name:** `parokya-ni-stimmie`
-   - **Database Password:** Generate and SAVE THIS!
-   - **Region:** `Southeast Asia (Singapore)` - closest to PH 🇵🇭
+ - **Organization:** Your org
+ - **Name:** `parokya-ni-stimmie`
+ - **Database Password:** Generate and SAVE THIS!
+ - **Region:** `Southeast Asia (Singapore)` - closest to PH 🇵🇭
 4. Wait ~2 minutes for project creation
 5. Go to **SQL Editor** (left sidebar)
 6. Copy the contents of `database/schema.sql` and paste it
 7. Click **"Run"** to create all tables
 8. Go to **Settings → API** and note down:
-   - `Project URL` → Your `SUPABASE_URL`
-   - `anon public` key → Your `NEXT_PUBLIC_SUPABASE_ANON_KEY`
-   - `service_role` key → Your `SUPABASE_SERVICE_KEY`
+ - `Project URL` → Your `SUPABASE_URL`
+ - `anon public` key → Your `NEXT_PUBLIC_SUPABASE_ANON_KEY`
+ - `service_role` key → Your `SUPABASE_SERVICE_KEY`
 
 ---
 
@@ -35,18 +35,18 @@
 2. Click **"New Application"** → Name: `Parokya ni Stimmie`
 3. Go to **Bot** tab → Click **"Add Bot"**
 4. Under **Privileged Gateway Intents**, enable:
-   - ✅ Server Members Intent
-   - ✅ Message Content Intent
+ - ✅ Server Members Intent
+ - ✅ Message Content Intent
 5. Click **"Reset Token"** and copy → This is your `DISCORD_TOKEN`
 6. Go to **OAuth2 → General**:
-   - Copy **Client ID** → This is your `DISCORD_CLIENT_ID`
+ - Copy **Client ID** → This is your `DISCORD_CLIENT_ID`
 7. Go to **OAuth2 → URL Generator**:
-   - Scopes: `bot`, `applications.commands`
-   - Bot Permissions: `Send Messages`, `Embed Links`, `Read Message History`, `Use Slash Commands`
-   - Copy the generated URL and open it to invite bot to your server
+ - Scopes: `bot`, `applications.commands`
+ - Bot Permissions: `Send Messages`, `Embed Links`, `Read Message History`, `Use Slash Commands`
+ - Copy the generated URL and open it to invite bot to your server
 8. Get your server's ID:
-   - Enable Developer Mode in Discord (Settings → Advanced → Developer Mode)
-   - Right-click your server → "Copy Server ID" → This is your `DISCORD_GUILD_ID`
+ - Enable Developer Mode in Discord (Settings → Advanced → Developer Mode)
+ - Right-click your server → "Copy Server ID" → This is your `DISCORD_GUILD_ID`
 
 ---
 
@@ -70,8 +70,8 @@ git push -u origin main
 2. Click **"New Project"** → **"Deploy from GitHub repo"**
 3. Select your `parokya-ni-stimmie` repository
 4. Configure:
-   - **Root Directory:** `bot`
-   - **Start Command:** `node src/index.js`
+ - **Root Directory:** `bot`
+ - **Start Command:** `node src/index.js`
 5. Go to **Variables** tab and add:
 
 ```
@@ -96,8 +96,8 @@ node src/deploy-commands.js
 2. Click **"Add New..."** → **"Project"**
 3. Import your `parokya-ni-stimmie` repository
 4. Configure:
-   - **Framework Preset:** Next.js
-   - **Root Directory:** `web`
+ - **Framework Preset:** Next.js
+ - **Root Directory:** `web`
 5. Add **Environment Variables**:
 
 ```
