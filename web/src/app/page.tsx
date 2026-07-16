@@ -54,7 +54,8 @@ export default function Home() {
                 alt="Parokya ni Stimmie"
                 width={150}
                 height={150}
-                className="mx-auto floating pixelated"
+                fetchPriority="high"
+                className="mx-auto pixelated"
               />
             </div>
 

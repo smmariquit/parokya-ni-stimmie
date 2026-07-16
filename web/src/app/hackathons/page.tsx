@@ -138,8 +138,8 @@ export default function HackathonsPage() {
           
           <div className="grid md:grid-cols-3 gap-6">
             {featured.map((h, i) => (
-              <div key={i} className="retro-border bg-[var(--dark-bg)] p-0 overflow-hidden hover:scale-105 transition-transform">
-                <div className="bg-gradient-to-r from-[var(--neon-pink)] to-[var(--neon-purple)] p-2 flex justify-between items-center">
+              <div key={i} className="retro-border bg-[var(--dark-bg)] p-0 overflow-hidden card-hover">
+                <div className="bg-[var(--neon-pink)] p-2 flex justify-between items-center">
                   <span className="pixel-font text-black font-bold">⭐ FEATURED</span>
                   <span className={`pixel-font text-xs px-2 py-1 ${h.type === 'ONLINE' ? 'bg-[var(--neon-blue)]' : 'bg-[var(--neon-green)]'} text-black`}>
                     {h.type === 'ONLINE' ? '🌐' : '📍'} {h.type}

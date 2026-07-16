@@ -176,7 +176,7 @@ export default function ResourcesPage() {
           </p>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
             {roles.map((role, i) => (
-              <div key={i} className="retro-border bg-[var(--dark-bg)] p-4 hover:scale-105 transition-transform">
+              <div key={i} className="retro-border bg-[var(--dark-bg)] p-4 card-hover">
                 <div className="text-3xl mb-2">{role.emoji}</div>
                 <h3 className="pixel-font text-[var(--neon-pink)]">{role.name}</h3>
                 <p className="text-sm text-gray-400">{role.desc}</p>
@@ -192,7 +192,7 @@ export default function ResourcesPage() {
           </h2>
           <div className="grid md:grid-cols-2 gap-6">
             {guides.map((guide, i) => (
-              <div key={i} className="retro-border bg-[var(--dark-bg)] p-6 hover:scale-[1.02] transition-transform cursor-pointer">
+              <div key={i} className="retro-border bg-[var(--dark-bg)] p-6 card-hover cursor-pointer">
                 <div className="flex items-start gap-4">
                   <div className="text-5xl">{guide.icon}</div>
                   <div className="flex-1">
@@ -230,7 +230,7 @@ export default function ResourcesPage() {
                 href={tool.url}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="retro-border bg-[var(--dark-bg)] p-4 text-center hover:scale-105 transition-transform hover:border-[var(--neon-yellow)]"
+                className="retro-border bg-[var(--dark-bg)] p-4 text-center card-hover"
               >
                 <div className="text-3xl mb-2">{tool.icon}</div>
                 <div className="pixel-font text-[var(--neon-pink)]">{tool.name}</div>
@@ -257,7 +257,7 @@ export default function ResourcesPage() {
 
         {/* Pro Tips */}
         <section className="mb-16">
-          <div className="retro-border bg-gradient-to-br from-[var(--dark-bg)] to-[var(--darker-bg)] p-6 border-[var(--neon-yellow)]">
+          <div className="retro-border bg-[var(--darker-bg)] p-6 border-[var(--neon-yellow)]">
             <h2 className="pixel-font text-3xl text-[var(--neon-yellow)] mb-6 flex items-center gap-3">
               <span className="blink">💡</span> STIMMIE&apos;S PRO TIPS
             </h2>

@@ -44,7 +44,7 @@ export default function RootLayout({
                   />
                 </div>
                 <div>
-                  <span className="pixel-font text-2xl neon-text-pink group-hover:neon-text-blue transition-all">
+                  <span className="pixel-font text-2xl neon-text-pink group-hover:neon-text-blue transition-colors">
                     PAROKYA
                   </span>
                   <span className="block text-xs text-[var(--neon-green)]">ni Stimmie</span>
@@ -53,13 +53,13 @@ export default function RootLayout({
 
               {/* Nav Links */}
               <div className="hidden md:flex items-center gap-6">
-                <Link href="/" className="pixel-font text-lg text-white hover:text-[var(--neon-pink)] hover:neon-text-pink transition-all">
+                <Link href="/" className="pixel-font text-lg text-white hover:neon-text-pink transition-colors">
                   [HOME]
                 </Link>
-                <Link href="/hackathons" className="pixel-font text-lg text-white hover:text-[var(--neon-blue)] hover:neon-text-blue transition-all">
+                <Link href="/hackathons" className="pixel-font text-lg text-white hover:neon-text-blue transition-colors">
                   [HACKATHONS]
                 </Link>
-                <Link href="/resources" className="pixel-font text-lg text-white hover:text-[var(--neon-green)] hover:neon-text-green transition-all">
+                <Link href="/resources" className="pixel-font text-lg text-white hover:neon-text-green transition-colors">
                   [GUIDE]
                 </Link>
                 <a
